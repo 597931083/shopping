@@ -17,7 +17,6 @@ import java.util.List;
 public class AddressController {
     @Autowired
     private AddressService addressService;
-
     @ResponseBody
     @RequestMapping(value="/address/useraddress",produces = "text/json;charset=UTF-8")
     public Object getUserAddress(Model model,HttpServletRequest request){

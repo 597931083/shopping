@@ -2,7 +2,6 @@ package com.team6.controller;/**
  * Created by VLoye on 2018/4/28.
  */
 
-
 import com.team6.service.rabbitMQ.SolrProducer;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
